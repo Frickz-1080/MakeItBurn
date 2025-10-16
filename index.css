@@ -1,0 +1,45 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: linear-gradient(#e38d03, #ffd637);
+  height: 100%;
+}
+header{
+  background: linear-gradient(to right, #edd326, #f8a901);
+}
+.header-container{
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.menu{
+  display: flex;
+  list-style: none;
+  padding: 10px;
+  gap: 30px;
+  color: white;
+  font-size: 1.2rem;
+}
+.full{
+  display: flex;
+  height: 100vh;
+  position: relative;
+  justify-content: center;
+}
+
+.circle{
+  width: 7rem;
+  height: 7rem;
+  margin-top: 50px;
+  background: white;
+  border-radius: 100rem;
+  font-size: 3.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
